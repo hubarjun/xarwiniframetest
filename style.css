@@ -33,7 +33,7 @@ img {
   width: 200px;
 }
 main {
-  height: 90vh;
+  height: 90dvh;
   background: #000;
   overflow: hidden;
   background: linear-gradient(
@@ -88,6 +88,10 @@ main {
   justify-content: center;
   align-items: center;
   overflow-x: hidden;
+  
+  iframe {
+    margin-block-end: 2rem;
+  }
 }
 
 @media all and (max-width: 600px) {
